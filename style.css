@@ -10,11 +10,12 @@ a:hover{
 .review{
     text-align: center;
     margin: 0 auto;
+    padding: 0;
 }
 table{
     text-align: center;
     padding: 10px;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: rgb(144, 207, 230);
     
 }
@@ -22,4 +23,47 @@ table{
   border: solid 3px white;
   border-radius: 15px;
   margin: 0 auto;
+}
+.sticky2{
+    position: sticky;
+    top: 20px;
+    right: 1810px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    z-index: 5; 
+    
+}
+.sticky{
+    position: sticky;
+    top: 20px;
+    right: 1810px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    z-index: 6; 
+}
+img:hover.sticky {
+    z-index: 3; 
+}
+img:hover.sticky2 {
+    z-index: 6; 
+}
+
+input[type=checkbox].css-checkbox{ display: none; }
+
+.css-label{
+    position: sticky;
+    display: block;
+    top: 20px;
+    right: 1830px;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://media.discordapp.net/attachments/436588526445002772/985631417683832912/Screenshot_2022-06-12_214714.png);
+    background-repeat: no-repeat;
+    background-color: #E9EEF4;
+    background-size: contain;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-image: url(https://media.discordapp.net/attachments/436588526445002772/985631602002497596/unknown.png);
 }
