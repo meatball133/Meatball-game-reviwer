@@ -5,11 +5,21 @@ a:hover{
     color: darkblue;
   }
 * {text-align: center;
-    background-color: rgb(201, 200, 182);}
+    background-color: rgb(243, 243, 239);
+    margin: 0 auto;}
 .review{
     text-align: center;
+    margin: 0 auto;
 }
 table{
     text-align: center;
+    padding: 10px;
+    margin: 0 auto;
     background-color: rgb(144, 207, 230);
+    
+}
+.MSFS{
+  border: solid 3px white;
+  border-radius: 15px;
+  margin: 0 auto;
 }
