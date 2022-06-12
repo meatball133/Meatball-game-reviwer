@@ -1,0 +1,15 @@
+#Steam_deck {
+    color: green;
+  }
+a:hover{
+    color: darkblue;
+  }
+* {text-align: center;
+    background-color: rgb(201, 200, 182);}
+.review{
+    text-align: center;
+}
+table{
+    text-align: center;
+    background-color: rgb(144, 207, 230);
+}
