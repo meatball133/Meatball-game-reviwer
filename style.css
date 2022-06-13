@@ -6,7 +6,10 @@ a:hover{
   }
 * {text-align: center;
     background-color: rgb(243, 243, 239);
-    margin: 0 auto;}
+
+    margin: 30px;
+    margin: 0 auto;
+    position: relative; }
 .review{
     text-align: center;
     margin: 0 auto;
@@ -24,46 +27,51 @@ table{
   border-radius: 15px;
   margin: 0 auto;
 }
-.sticky2{
-    position: sticky;
-    top: 20px;
-    right: 1810px;
-    width: 75px;
-    height: 75px;
-    border-radius: 15px;
-    z-index: 5; 
-    
-}
-.sticky{
-    position: sticky;
-    top: 20px;
-    right: 1810px;
-    width: 75px;
-    height: 75px;
-    border-radius: 15px;
-    z-index: 6; 
-}
-img:hover.sticky {
-    z-index: 3; 
-}
-img:hover.sticky2 {
-    z-index: 6; 
-}
+.intro{position: absolute;}
 
 input[type=checkbox].css-checkbox{ display: none; }
 
 .css-label{
     position: sticky;
     display: block;
-    top: 20px;
-    right: 1830px;
     width: 50px;
     height: 50px;
-    background-image: url(https://media.discordapp.net/attachments/436588526445002772/985631417683832912/Screenshot_2022-06-12_214714.png);
+    background-image: url(https://media.discordapp.net/attachments/436588526445002772/985964916232036362/Screenshot_2022-06-12_214714.png);
     background-repeat: no-repeat;
     background-color: #E9EEF4;
     background-size: contain;
+    border-style: solid;
+    border-radius: 15px;
+    z-index: 291;
 }
 input[type=checkbox].css-checkbox:checked + label.css-label {
     background-image: url(https://media.discordapp.net/attachments/436588526445002772/985631602002497596/unknown.png);
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    z-index: 292;
+    right: 1860px;
 }
+.hi{
+    display: none;
+    width: 100px;
+    height: 10px;
+    position: sticky;}
+
+input[type=checkbox].css-checkbox:checked ~ .hi{
+    display: block;
+    width: 120px;
+    height: 90px;
+    font-size: 25px;
+    border-style: solid;
+    position: -webkit-sticky;
+    z-index: 295;
+    border-radius: 15px;
+ }
+ .do{
+    border-radius: 15px;
+ }
+ .do:hover{
+    background-color: rgb(209, 207, 207);
+ }
