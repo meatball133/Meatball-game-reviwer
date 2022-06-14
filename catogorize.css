@@ -25,23 +25,26 @@ a:link { text-decoration: none; }
     .grid31{
         width: 300px;
         grid-column-start: 2;
-        grid-row:1;
     
     }
     .grid41{
         grid-column-start: 3;
+        width: 300px;
     
     }
     .grid51{
         grid-column-start: 4;
+        width: 300px;
     
     }
     .grid61{
         grid-column-start: 2;
+        width: 300px;
     
     }
     .grid71{
         grid-column-start: 3;
+        width: 300px;
     
     }
 }
