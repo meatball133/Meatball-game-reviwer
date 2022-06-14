@@ -6,10 +6,8 @@ a:hover{
   }
 * {text-align: center;
     background-color: rgb(243, 243, 239);
-
-    margin: 30px;
     margin: 0 auto;
-    position: relative; }
+    position: relative;}
 .review{
     text-align: center;
     margin: 0 auto;
@@ -30,7 +28,7 @@ table{
 .intro{position: absolute;}
 
 input[type=checkbox].css-checkbox{ display: none; }
-
+head{display: none;}
 .css-label{
     position: sticky;
     display: block;
@@ -42,7 +40,7 @@ input[type=checkbox].css-checkbox{ display: none; }
     background-size: contain;
     border-style: solid;
     border-radius: 15px;
-    z-index: 291;
+    z-index: 291; 
 }
 input[type=checkbox].css-checkbox:checked + label.css-label {
     background-image: url(https://media.discordapp.net/attachments/436588526445002772/985631602002497596/unknown.png);
@@ -74,4 +72,4 @@ input[type=checkbox].css-checkbox:checked ~ .hi{
  }
  .do:hover{
     background-color: rgb(209, 207, 207);
- }
+ }  
